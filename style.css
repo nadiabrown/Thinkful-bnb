@@ -165,3 +165,14 @@ button {
     padding-bottom: 20px;
     width: 450px;
 }
+
+footer{
+    color: #fff;
+    background-color: #FF385D;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
