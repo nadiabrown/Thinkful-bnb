@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #FF385D;
+}
+
+header h1 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+header nav ul a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav a ul li:last-child{
+    margin-right: 0;
+  }
