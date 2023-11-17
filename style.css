@@ -152,6 +152,7 @@ button {
 #host-section {
     font-size: 18px;
     font-weight: 300;
+    padding-bottom: 40px;
 }
 
 #host-section p {
