@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>Thinkful-Bnb</title>
 </head>
 <body>
@@ -24,6 +24,38 @@
             </ul>
         </nav>
     </header>
+
+    <div class = "rental-search-form">
+        <h1>Find the perfect vacation rental.</h1>
+        <form>
+
+            <div class = "form-item-container">
+                <label for = "Location">Location</label>
+                <input id = "Location" type= "text" name= "Location" placeholder= "Search destination">
+            </div>
+
+            <div class = "form-item-container">
+            <label for = "Arrival-date">Arrive</label>
+            <input id = "Arrival-date" type = "date" name = "Arrival-date">
+            </div>
+
+            <div class = "form-item-container">
+            <label for = "Departure-date">Depart</label>
+            <input id = "Departure-date" type = "date" name = "Departure-date">
+            </div>
+
+            <div class = "form-item-container">
+            <label for = "Housing-type">Type</label>
+            <select name = "Housing-type" id = "Housing-type" size = 1>
+                <option value = "Apartment">Apartment</option>
+                <option value = "Condo">Condo</option>
+                <option value = "House">House</option>
+            </select>
+            </div>
+
+            <button>Search</button>
+        </form>
+    </div>
     
 </body>
 </html>
