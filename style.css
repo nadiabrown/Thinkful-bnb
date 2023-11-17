@@ -107,3 +107,24 @@ button {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+#ideas-section {
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+#ideas-section h1 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#ideas-section h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.ideas-images {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
