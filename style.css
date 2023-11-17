@@ -121,11 +121,19 @@ button {
     text-align: center;
 }
 
-#ideas-section h2 {
-    font-family: 'Lato', sans-serif;
+#ideas-section .ideas-item, #ideas-section .ideas-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.ideas-images {
+#ideas-section h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+#ideas-section img {
     margin-top: 10px;
     margin-bottom: 20px;
 }
