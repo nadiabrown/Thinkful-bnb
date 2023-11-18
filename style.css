@@ -125,7 +125,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #ideas-section h2 {
