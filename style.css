@@ -236,5 +236,18 @@ footer{
         flex: 0 1 50%;
     }
     
+    #host-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    #host-section h1{
+        width: 450px;
+    }
+
+    #host-section img {
+        height: 400px;
+    }
   }
