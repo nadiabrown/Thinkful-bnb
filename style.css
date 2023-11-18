@@ -227,7 +227,14 @@ footer{
         height: 250px;
     }
 
-    .about-content p {
-
+    .ideas-content {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .ideas-item {
+        flex: 0 1 50%;
+    }
+    
+
   }
