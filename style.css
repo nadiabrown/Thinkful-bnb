@@ -157,6 +157,12 @@ button {
     width: 300px;
 }
 
+.host-section-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #host-section {
     font-size: 18px;
     font-weight: 300;
