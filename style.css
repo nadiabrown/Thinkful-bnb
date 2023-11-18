@@ -199,7 +199,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border: #FF385Dsolid 3px;
+        border: #FF385D solid 3px;
         padding: 20px;
         margin-top: 20px;
     }
@@ -207,5 +207,27 @@ footer{
     .form-item-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 40px;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-images {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-images img {
+        height: 250px;
+    }
+
+    .about-content p {
+
     }
   }
