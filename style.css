@@ -224,13 +224,7 @@ footer{
         flex-direction: row;
         padding-bottom: 40px;
         gap: 20px;
-        justify-content: space-around;
         align-items: center;
-    }
-
-    .about-images {
-        display: flex;
-        flex-direction: row;
     }
 
     .about-images img {
