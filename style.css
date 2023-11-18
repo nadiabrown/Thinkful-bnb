@@ -191,4 +191,21 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
+
+    .rental-search-form form {
+        padding-top: 20px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: #FF385Dsolid 3px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .form-item-container {
+        display: flex;
+        flex-direction: column;
+    }
   }
