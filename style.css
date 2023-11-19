@@ -8,6 +8,8 @@ img {
 
 header {
     background-color: #FF385D;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header h1 {
@@ -229,6 +231,7 @@ footer{
 
     .about-images img {
         height: 250px;
+        flex: 1;
     }
 
     .ideas-content {
