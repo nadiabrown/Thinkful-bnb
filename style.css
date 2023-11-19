@@ -4,7 +4,10 @@
 
 img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 
 header {
     background-color: #FF385D;
@@ -224,14 +227,21 @@ footer{
     .about-content {
         display: flex;
         flex-direction: row;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         gap: 20px;
         align-items: center;
     }
 
-    .about-images img {
-        height: 250px;
+    .about-image {
         flex: 1;
+    }
+    
+    .about-paragraph {
+        flex: 2;
+    }
+
+    #About p {
+       width: 100%;
     }
 
     .ideas-content {
