@@ -247,10 +247,13 @@ footer{
     .ideas-content {
         display: flex;
         flex-wrap: wrap;
+        gap: 20px;
+        margin: auto;
+        justify-content: center;
     }
 
     .ideas-item {
-        flex: 0 1 50%;
+        flex: 0 1 40%;
     }
     
     #host-section {
