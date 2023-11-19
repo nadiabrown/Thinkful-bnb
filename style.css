@@ -180,12 +180,10 @@ button {
 
 #host-section p {
     padding-top: 20px;
-    padding-bottom: 20px;
     width: 450px;
 }
 
 #host-section ul{
-    padding-bottom: 20px;
     width: 450px;
 }
 
@@ -267,6 +265,15 @@ footer{
 
     #host-section img {
         height: 400px;
+        width: 100%;
+    }
+
+    #host-section-text p {
+        height: 400px;
+        width: 100%;
+    }
+
+    .host-section-text h1 {
         width: 100%;
     }
 
