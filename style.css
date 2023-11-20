@@ -287,3 +287,14 @@ footer{
 
 
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 880px) {
+    form {
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .form-item-container input{
+        width: 100px;
+    }
+  }
