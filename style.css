@@ -89,6 +89,8 @@ button {
 #About {
     margin-top: 20px;
     background-color: #04A599;
+    padding: 0 30px;
+    padding-bottom: 5px;
 }
 
 #About h1 {
@@ -96,21 +98,21 @@ button {
     text-align: center;
     color: #fff;
     padding-top: 20px;
-    padding-bottom: 10px;
 }
 
-.about-images {
+.about-image {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #About p {
     font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 18px;
-    width: 400px;
+    width: 100%;
     display: flex;
     margin: auto;
     padding-top: 20px;
