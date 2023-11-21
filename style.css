@@ -182,15 +182,16 @@ button {
     font-size: 18px;
     font-weight: 300;
     padding: 20px;
+    gap: 10px;
 }
 
 #host-section p {
     padding-top: 20px;
-    width: 450px;
+    width: 100%;
 }
 
 #host-section ul{
-    width: 450px;
+    width: 100%;
 }
 
 footer{
@@ -313,5 +314,19 @@ footer{
     .ideas-item img {
         width: 47vw;
         height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #host-section {
+        padding: 40px;
+    }
+    .host-section-text {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .host-section p {
+        width: 100%;
     }
   }
