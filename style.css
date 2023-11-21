@@ -124,6 +124,11 @@ button {
     margin-right: 10px;
 }
 
+.ideas-item img {
+    width: 400;
+    height: 250px;
+}
+
 #ideas-section h1 {
     font-family: 'Lato', sans-serif;
     padding-top: 20px;
@@ -222,11 +227,14 @@ footer{
         flex-direction: column;
     }
 
+    #About {
+        padding: 0 20px;
+    }
     .about-content {
         display: flex;
         flex-direction: row;
         padding-bottom: 20px;
-        gap: 20px;
+        gap: 15px;
         align-items: center;
     }
 
@@ -245,9 +253,14 @@ footer{
     .ideas-content {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 9px;
         margin: auto;
         justify-content: center;
+    }
+
+    .ideas-item img {
+        width: 47vw;
+        height: 400px;
     }
 
     .ideas-item {
@@ -288,7 +301,7 @@ footer{
 
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 880px) {
+  @media only screen and (min-width: 768px) and (max-width: 920px) {
     form {
         gap: 20px;
         justify-content: space-between;
@@ -296,5 +309,10 @@ footer{
 
     .form-item-container input{
         width: 100px;
+    }
+
+    .ideas-item img {
+        width: 47vw;
+        height: 400px;
     }
   }
